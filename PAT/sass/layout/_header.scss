@@ -1,0 +1,11 @@
+header {
+  height: 100vh;
+  padding-top: 300px;
+  position: relative;
+  text-align: center;
+  // background:linear-gradient(rgba($color-black, .6), rgba($color-black, .6)), url('../img/karl-s-1060222-unsplash.jpg');
+  background:linear-gradient(rgba($color-black, .6), rgba($color-black, .6)), url('../img/homebg.jpeg');
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}

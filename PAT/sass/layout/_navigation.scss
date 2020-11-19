@@ -1,0 +1,40 @@
+#main-nav {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: $color-dark;
+  box-shadow: 0 3px 6px rgba($color-black, .16);
+  ul {
+    min-width: 100%;
+    text-align: right;
+    list-style: none;
+    #cart-btn {
+      background-color: $color-secondary;
+      color: white;
+      animation: pulse 2s infinite;
+    
+      &:hover {
+        background-color: lighten($color-secondary, 5%);
+        color: white;
+      }
+    }
+    
+    
+    li {
+      display: inline-block;
+      a {
+        display: inline-block;
+        padding: 15px 30px;
+        text-decoration: none;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        color: $color-tertiary;
+
+        &:hover {
+          color: $color-primary;
+        }
+      }
+    }
+  }
+}

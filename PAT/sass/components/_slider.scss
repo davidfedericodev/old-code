@@ -1,0 +1,27 @@
+.info-container {
+  background-color: $color-dark;
+  color: $color-tertiary;
+  width: 80%;
+  margin: auto;
+  padding: 80px 150px;
+  box-shadow: 0px 3px 15px rgba($color-black, .16);
+
+  .fas {
+    font-size: 3rem;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    transition: .3s;
+
+    &:hover {
+      transform: scale(1.2);
+      color: $color-primary;
+    }
+  }
+  .fa-angle-left {
+    left: 20px;
+  }
+  .fa-angle-right {
+    right: 20px;
+  }
+}

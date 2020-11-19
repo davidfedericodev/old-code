@@ -1,0 +1,57 @@
+.user-container {
+  position: relative;
+  background-image: url('../../img/shane-rounce-682783-unsplash.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  padding: 100px;
+
+  .box {
+    width: 60%;
+    margin: auto;
+    background-color: rgba($color-dark, .9);
+    padding: 150px; 
+    text-align: center;
+
+    .user-img {
+      width: 80px;
+      height: 80px;
+      display: block;
+      margin: 0 auto 20px;
+
+
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .user-name {
+      font-size: 25px;
+    }
+    .user-mail {
+      font-size: 15px;
+      margin-bottom: 20px;
+    }
+
+    .cart-container {
+      list-style: none;
+      padding: 20px;
+
+      a {
+        display: block;
+        color: $color-white;
+        font-size: 20px;
+        text-decoration: none;
+        padding: 20px 5px;
+        transition: .5s all;
+
+        &:hover {
+          background-color: $color-primary;
+          color: $color-black;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="215.265" height="215.265" viewBox="0 0 215.265 215.265">
+  <g id="LOGO" transform="translate(-852 -402.735)">
+    <g id="LOGO-2" data-name="LOGO" transform="translate(451 212.735)">
+      <text id="PAT" transform="translate(427.549 329.938)" fill="#272727" font-size="85" font-family="HiraKakuProN-W3, Hiragino Kaku Gothic ProN"><tspan x="0" y="0">PAT</tspan></text>
+      <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(401 190)" fill="none" stroke="#272727" stroke-width="6">
+        <circle cx="107.633" cy="107.633" r="107.633" stroke="none"/>
+        <circle cx="107.633" cy="107.633" r="104.633" fill="none"/>
+      </g>
+    </g>
+    <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(865 415)" fill="none" stroke="#00d392" stroke-width="3">
+      <circle cx="95" cy="95" r="95" stroke="none"/>
+      <circle cx="95" cy="95" r="93.5" fill="none"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,68 @@
+.registration-box {
+  position: relative;
+
+  .box {
+    background-color: $color-dark;
+    padding: 100px;
+    text-align: center;
+
+    .message {
+      font-size: 40px;
+    }
+  }
+}
+
+.invisible {
+  opacity: 0 !important;
+  pointer-events: none;
+}
+.alert-danger {
+  z-index: 100;
+  position: fixed;
+  left: 50%;
+  top: 120px;
+  transform: translateX(-50%);
+  display: block;
+  width: 700px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  background: rgba(255, 60, 0, 0.699);
+  color: white;
+  opacity: 1;
+  transition: all .5s ease-out;
+}
+
+.alert-success {
+  z-index: 100;
+  position: fixed;
+  left: 50%;
+  top: 120px;
+  transform: translateX(-50%);
+  display: block;
+  width: 700px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  background: $color-primary;
+  color: white;
+  opacity: 1;
+  transition: all .5s ease-out;
+  font-size: 20px;
+}
+
+#alert {
+  z-index: 100;
+  position: fixed;
+  left: 50%;
+  top: 120px;
+  transform: translateX(-50%);
+  display: block;
+  width: 700px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  background: $color-notification;
+  color: white;
+  opacity: 1;
+  transition: all .5s ease-out;
+  font-size: 20px;
+}
+

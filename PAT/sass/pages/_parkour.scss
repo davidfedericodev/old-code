@@ -1,0 +1,26 @@
+header.parkour {
+  height: 60vh;
+  background: linear-gradient(rgba($color-black, .5), rgba($color-black, .5)) ,url("../img/pk.jpg");
+  background-size: cover;
+  background-position: top top;
+  color: $color-dark;
+
+}
+header.athletics {
+  height: 60vh;
+  background: linear-gradient(rgba($color-black, .5), rgba($color-black, .5)) ,url("../img/athbg.jpg");
+  background-size: cover;
+  background-position: top top;
+  color: $color-white;
+
+}
+
+main {
+  position: relative;
+  .pk-bg {
+    position: absolute;
+    top: 50px;
+    z-index: -1;
+    width: 20%;
+  }
+}
